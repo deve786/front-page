@@ -50,10 +50,16 @@
     align-items: center;
     justify-content: space-around;
     
+    
   }
   .topic{
     cursor: pointer;
     padding-right: 50px;
+   
+  }
+  a{
+    text-decoration: none;
+    color: #000;
   }
   * {box-sizing:border-box}
 
@@ -146,6 +152,7 @@
     top: 60%;
     margin: 20px;
     border-radius: 10px;
+
 }
 
 
@@ -204,6 +211,7 @@ footer{
 }
 .footer-menu{
   padding-right: 45px;
+  cursor: pointer;
 }
 .sub{
     font-size: 20px;
@@ -227,12 +235,12 @@ input{
 }
 .social{
   display: flex;
-  margin-top: 5px;
-  justify-content: space-around;
-  flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    cursor: pointer;
 }
-.social-icon{
-  width: 50px;
+.social-icons{
+  cursor: pointer;
 }
 
 .topic-banner1{
@@ -281,4 +289,8 @@ input{
   border: none;
   cursor: pointer;
   font-size: 17px;
+  background-color: #fff;
+}
+.topic-btn button:hover{
+  background-color: rgba(255, 255, 255, 0.673);
 }
