@@ -190,5 +190,13 @@ footer{
     margin: 5px;
 }
 .input-box{
+    margin-top: 15px;
+    
+}
+input{
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
     
 }
