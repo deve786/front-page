@@ -1,309 +1,320 @@
 * {
-    margin: 0;
-    padding: 0;
-    
-  }
-  .logo-img {
-    width: 70px;
-  }
-  nav {
-    background-color: #fff;
-    padding: 5px;
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  
+}
+.logo-img {
+  width: 70px;
+}
 
-  }
-  .menus {
-    display: flex;
-    align-items: center;
-    padding: 25px;
-    font-size: 18px;
-    font-weight: 600;
-    font-family:  serif;
-    justify-content: space-around;
-    padding-bottom: 20px;
-   
+nav {
+  background-color: #fff;
+  padding: 5px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 
-  }
-  .menu:hover{
-    border-bottom: 2px solid black;
-    
-  }
-  .menu{
-    
-    margin-left: 45px;
-    cursor: pointer;
-    
-  }
-  .navbar-left{
-    width: 50%;
-    display: flex;
-  }
-  .section{
-    background-color: #f2f2f2;
-  }
-  .topics{
-    display: flex;
-    height: 50px;
-    min-height: 50px;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    
-    
-  }
-  .topic{
-    cursor: pointer;
-    padding-right: 50px;
-   
-  }
-  a{
-    text-decoration: none;
-    color: #000;
-  }
-  * {box-sizing:border-box}
+}
+.menus {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family:  serif;
+  justify-content: space-around;
+  padding-bottom: 20px;
+ 
+
+}
+.menu:hover{
+  border-bottom: 2px solid black;
+  
+}
+.menu{
+  
+  margin-left: 45px;
+  cursor: pointer;
+  
+}
+.navbar-left{
+  width: 75%;
+  display: flex;
+}
+.section{
+  background-color: #f2f2f2;
+}
+.topics{
+  display: flex;
+  height: 50px;
+  min-height: 50px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+}
+.topic{
+  cursor: pointer;
+  padding-right: 50px;
+ 
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 100%;
-  position: relative;
-  
+width: 100%;
+position: relative;
+
 
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
-  
+display: none;
+
 }
 .img-slide{
-    width: 100%;
-    height: 600px;
+  width: 100%;
+  height: 600px;
 }
 .dots{
-    margin-top: -37px;
+  margin-top: -37px;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+right: 0;
+border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
 .main-text {
-    color: #f2f2f2;
-    display: flex;
-    font-size: 3rem; 
-    position: absolute;
-    top: 45%;
-    width: 100%;
-    text-align: center;
-    justify-content: space-around;
-    align-content: flex-start;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  color: #f2f2f2;
+  display: flex;
+  font-size: 3rem; 
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .secondary-text{
-    color: #f2f2f2;
-    display: flex;
-    font-size: 2rem; 
-    position: absolute;
-    top: 45%;
-    margin-top: 60px;
-    width: 100%;
-    text-align: center;
-    justify-content: space-around;
-    align-content: flex-start;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  color: #f2f2f2;
+  display: flex;
+  font-size: 2rem; 
+  position: absolute;
+  top: 45%;
+  margin-top: 60px;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .topic-btns{
-    display: flex;
-    justify-content: space-around;
-    
-    margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  
+  margin-top: 60px;
 }
 .buttons{
-    width: fit-content;
-    padding: 8px 20px;
-    position: absolute;
-    top: 60%;
-    margin: 20px;
-    border-radius: 10px;
+  width: fit-content;
+  padding: 8px 20px;
+  position: absolute;
+  top: 60%;
+  margin: 20px;
+  border-radius: 10px;
 
 }
 
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
 }
 footer{
-  background-color: #000;
-  color: white;
-  height: 150px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: stretch;
-  flex-direction: row;
+background-color: #000;
+color: white;
+height: 150px;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+align-content: stretch;
+flex-direction: row;
 }
 .footer-left{
-    width: 50%;
+  width: 50%;
 }
 .footer-menus{
-  display: flex;
+display: flex;
 }
 .footer-menu{
-  padding-right: 45px;
-  cursor: pointer;
+padding-right: 45px;
+cursor: pointer;
 }
 .sub{
-    font-size: 20px;
-    margin: 5px;
+  font-size: 20px;
+  margin: 5px;
 }
 .input-box{
-    margin-top: 15px;
-    
+  margin-top: 15px;
+  
 }
 input{
-    width: 200px;
-    border-radius: 5px;
-    outline: none;
-    border:none;
-    padding: 5px;
-    
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  padding: 5px;
+  
 }
 .sub-btn{
-    width: fit-content;
-    padding: 5px 7px;
+  width: fit-content;
+  padding: 5px 7px;
 }
 .social{
-  display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    cursor: pointer;
+display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  cursor: pointer;
 }
 .social-icons{
-  cursor: pointer;
+cursor: pointer;
 }
 .button{
 
 }
 .navbar-right{
-  display: flex;
-    width: 50%;
-    align-content: stretch;
-    justify-content: flex-end;
-    align-items: center;
+display: flex;
+  width: 50%;
+  align-content: stretch;
+  justify-content: flex-end;
+  align-items: center;
 
 }
 .topic-banner1{
-  color:#000;
-  background-color: darkkhaki;
-  padding: 52px 100px;
+color:#000;
+background-color: darkkhaki;
+padding: 52px 100px;
+background-image: url("topic(1).png");
+background-size: contain;
 }
 .topic-banner2{
-  color:#000;
-  background-color: darksalmon;
-  padding: 52px 100px;
+color:#000;
+background-color: darksalmon;
+padding: 52px 100px;
+background-image: url("t2.jpg");
+background-size: contain;
 }
 .topic-banner3{
-  color:#000;
-  background-color: lightskyblue;
-  padding: 52px 100px;
+color:#000;
+background-color: lightskyblue;
+padding: 52px 100px;
+background-image: url("t3.jpg");
+background-size: contain;
 }
 .topic-banner4{
-  color:#000;
-  background-color: darkslategrey;
-  padding: 52px 100px;
+color:#000;
+background-color: darkslategrey;
+padding: 52px 100px;
+background-image: url("t4.jpg");
+background-size: contain;
 }
 .topic-banner5{
-  color:#000;
-  background-color: lightpink;
-  padding: 52px 100px;
+color:#000;
+background-color: lightpink;
+padding: 52px 100px;
+background-image: url("t5.jpg");
+background-size: over;
 }
 .contents{
-  font-size: 45px;
-  font-weight: 800;
+font-size: 45px;
+font-weight: 800;
 }
 .sub-contents{
-  font-size: 22px;
-  max-width: 60%;
-  padding-top: 5px;
-  text-align: justify;
+font-size: 22px;
+max-width: 60%;
+padding-top: 5px;
+text-align: justify;
 }
 .topic-btn{
-  padding-top: 10px;
+padding-top: 10px;
 }
 .topic-btn button{
-  width: fit-content;
-  padding: 5px 50px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-size: 17px;
-  background-color: #fff;
+width: fit-content;
+padding: 5px 50px;
+border-radius: 5px;
+outline: none;
+border: none;
+cursor: pointer;
+font-size: 17px;
+background-color: #fff;
 }
 .topic-btn button:hover{
-  background-color: rgba(255, 255, 255, 0.673);
+background-color: rgba(255, 255, 255, 0.673);
 }
