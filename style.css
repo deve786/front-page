@@ -7,10 +7,13 @@
     width: 70px;
   }
   nav {
-    
     background-color: #fff;
     padding: 5px;
     padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
   }
   .menus {
     display: flex;
@@ -242,7 +245,17 @@ input{
 .social-icons{
   cursor: pointer;
 }
+.button{
 
+}
+.navbar-right{
+  display: flex;
+    width: 50%;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
+
+}
 .topic-banner1{
   color:#000;
   background-color: darkkhaki;
